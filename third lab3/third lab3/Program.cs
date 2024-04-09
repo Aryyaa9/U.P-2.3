@@ -30,7 +30,7 @@ class Calculation
         }
         else
         {
-            throw new InvalidOperationException("Строка вычислений пуста");
+            throw new Exception("Строка вычислений пуста");
         }
     }
 
@@ -42,7 +42,7 @@ class Calculation
         }
         else
         {
-            throw new InvalidOperationException("Нечего удалять, строка вычислений пуста");
+            throw new Exception("Нечего удалять, строка вычислений пуста");
         }
     }
 }

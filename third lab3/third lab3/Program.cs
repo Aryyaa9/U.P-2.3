@@ -56,7 +56,7 @@ class Program
         calc.SetCalculationLine("2+2");
         Console.WriteLine(calc.GetCalculationLine()); 
 
-        calc.SetLastSymbolCalculationLine('5');
+        calc.SetLastSymbolCalculationLine('6');
         Console.WriteLine(calc.GetCalculationLine());
 
         Console.WriteLine(calc.GetLastSymbol()); 
